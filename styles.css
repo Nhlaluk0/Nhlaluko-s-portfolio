@@ -35,3 +35,15 @@
   line-height: 27px;
   padding: 15px 30px;
 }
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 80px 20px;
+  }
+}
+
+p {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+}
