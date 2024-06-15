@@ -70,3 +70,32 @@ p {
   width: 80%;
   margin: 35px;
 }
+
+.content-container {
+  padding: 160px 20px;
+}
+
+@media (max-width: 900px) {
+  .section {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.content {
+  margin: 30px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.content p {
+  font-size: 14px;
+}
