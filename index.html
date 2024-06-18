@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nhlaluko is a front-end developer based in South Africa"
+    />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -24,54 +28,45 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins:wght@500;700&amp;display=swap"
       rel="stylesheet"
     />
-    <title>Nhlaluko's portfolio</title>
+    <title>Front-end developer-Nhlaluko Masia</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Nhlaluko</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="work.html">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <nav class="d-flex justify-content-between">
+      <h2 class="logo">Nhlaluko Crystal Masia</h2>
+      <ul>
+        <li class="active">
+          <a href="/" title="Homepage">Home</a>
+        </li>
+        <li>
+          <a href="about.html" title="About Nhlaluko">About</a>
+        </li>
+        <li>
+          <a href="work.html" title="Nhlaluko's work">Work</a>
+        </li>
+        <li>
+          <a href="contact.html" title="Contact Nhlaluko">Contact</a>
+        </li>
+      </ul>
     </nav>
     <div class="hero">
       <p>🤚🏾 Hello, I am</p>
       <h1>Nhlaluko</h1>
       <h2 class="mb-5">A front-end developer based in South Africa</h2>
       <div>
-        <a href="#" type="button" class="btn btn-primary"> Contact me </a>
+        <a href="#" type="button" class="btn btn-primary" title="Contact me">
+          Contact me
+        </a>
       </div>
     </div>
     <p class="text-center m-5">My best featured projects to showcase</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="Images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="Images/yogurt.png"
+            class="img-fluid"
+            alt="Yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project description">
@@ -100,12 +95,20 @@
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="Images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="Images/weather.png"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="Images/yoga.png" class="img-fluid" alt="" />
+          <img
+            src="Images/yoga.png"
+            class="img-fluid"
+            alt="Yoga project preview"
+          />
         </div>
         <div class="col">
           <div class="project description">
@@ -127,25 +130,43 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-primary mt-3"> Contact me </a>
+            <a href="" class="btn btn-primary mt-3" title="Contact Nhlaluko">
+              Contact me
+            </a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:masianhlaluko@gmail.com" class="email-link"
+          <a
+            href="mailto:masianhlaluko@gmail.com"
+            class="email-link"
+            title="Email Nhlaluko"
             >masianhlaluko@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.github.com/Nhlaluk0" target="_blank">
+          <a
+            href="https://www.github.com/Nhlaluk0"
+            target="_blank"
+            title="Github profile"
+          >
             <i class="fab fa-github" aria-hidden="true"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/nhlaluko-crystal-masia-9511b0208/"
             target="_blank"
+            title="Linkedin profile"
           >
             <i class="fab fa-linkedin" aria-hidden="true"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          This website was coded by Nhlaluko Masia, and is
+          <a
+            href="https://github.com/Nhlaluk0/Nhlaluko-s-portfolio"
+            target="_blank"
+            >open sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
